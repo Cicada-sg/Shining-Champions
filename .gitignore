@@ -1,0 +1,23 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Minecraft runtime data
+run/
+run-data/
+
+# Generated sources and local publishing output
+src/generated/
+repo/
+
+# Logs and crash reports
+*.log
+crash-reports/
