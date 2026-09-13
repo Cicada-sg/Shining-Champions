@@ -4,15 +4,15 @@
 
 ## 支持版本
 
-- 当前目录：Minecraft 1.20.1（Forge）
-- `versions/1.21.1`：Minecraft 1.21.1（NeoForge）
-- `versions/26.1`：Minecraft 26.1（NeoForge）
+- 当前分支：Minecraft 1.20.1（Forge）
+- `1.21.1` 分支：Minecraft 1.21.1（NeoForge）
+- `26.1` 分支：Minecraft 26.1（NeoForge）
 
 该 Mod 只修改客户端渲染效果，不会向实体添加服务端发光效果。
 
 ## 构建
 
-在对应版本目录执行：
+在对应分支的仓库根目录执行：
 
 ```text
 ./gradlew build
@@ -31,6 +31,5 @@ Windows PowerShell 可使用：
 各版本工程会从 Curse Maven 获取对应版本的 Champions：
 
 - 1.20.1：`curse.maven:champions-unofficial-1074990:6923340`
-- 1.21.1：`curse.maven:champions-unofficial-1074990:6923189`
-- 26.1：`curse.maven:champions-unofficial-1074990:7957521`
-
+- 1.21.1 分支：`curse.maven:champions-unofficial-1074990:6923189`
+- 26.1 分支：`curse.maven:champions-unofficial-1074990:7957521`
